@@ -1,10 +1,10 @@
 <div align="center">
 
-# 喷涂机器人作业后工件质量检测与评估智能体
+# 机器人作业后工件质量检测与评估智能体
 
 **Spray-Coating Quality Inspection Agent · V1.1**
 
-上传喷涂后的工件照片，AI 自动完成 **缺陷检测 → 标准比对 → 工艺知识检索 → 根因分析 → 防幻觉自检 → 报告归档** 全链路，并以流式对话 + 缺陷框叠加界面呈现。
+上传工件照片，AI 自动完成 **缺陷检测 → 标准比对 → 工艺知识检索 → 根因分析 → 防幻觉自检 → 报告归档** 全链路，并以流式对话 + 缺陷框叠加界面呈现。
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
