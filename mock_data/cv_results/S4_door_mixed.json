@@ -1,0 +1,30 @@
+{
+  "workpiece_no": "DR-MB07-D",
+  "scene": "S4",
+  "model": "yolov8s-spray-v1-mock",
+  "image_size": { "width": 1920, "height": 1080 },
+  "detections": [
+    {
+      "id": 1,
+      "defect_type": "sagging",
+      "confidence": 0.9,
+      "bbox_xyxy": [220, 380, 300, 660],
+      "measure": { "area_cm2": 5.6, "max_length_mm": 38.0 }
+    },
+    {
+      "id": 2,
+      "defect_type": "orange_peel",
+      "confidence": 0.82,
+      "bbox_xyxy": [900, 300, 1400, 700],
+      "measure": { "area_cm2": 3.2, "max_length_mm": 55.0 }
+    },
+    {
+      "id": 3,
+      "defect_type": "particle",
+      "confidence": 0.74,
+      "bbox_xyxy": [1600, 180, 1640, 220],
+      "measure": { "area_cm2": 0.8, "max_length_mm": 6.0 }
+    }
+  ],
+  "meta": { "inference_ms": 37 }
+}

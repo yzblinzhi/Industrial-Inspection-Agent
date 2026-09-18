@@ -1,0 +1,8 @@
+{
+  "workpiece_no": "FL-PN18-A",
+  "scene": "S1",
+  "model": "yolov8s-spray-v1-mock",
+  "image_size": { "width": 1920, "height": 1080 },
+  "detections": [],
+  "meta": { "inference_ms": 31 }
+}

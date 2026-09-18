@@ -1,0 +1,16 @@
+{
+  "workpiece_no": "CL-ZH02-B",
+  "scene": "S2",
+  "model": "yolov8s-spray-v1-mock",
+  "image_size": { "width": 1920, "height": 1080 },
+  "detections": [
+    {
+      "id": 1,
+      "defect_type": "sagging",
+      "confidence": 0.87,
+      "bbox_xyxy": [312, 448, 396, 730],
+      "measure": { "area_cm2": 6.8, "max_length_mm": 42.0 }
+    }
+  ],
+  "meta": { "inference_ms": 35 }
+}
